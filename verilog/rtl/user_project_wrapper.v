@@ -82,14 +82,14 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-rgb_mixer rgb_mixed (
+rgb_mixer rgb_mixer (
 `ifdef USE_POWER_PINS
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
 
     .clk(wb_clk_i),
-    .reset(wb_rst_i),
+    .reset(la_data_in[32]),
 
     .enc0_a(io_in[ 8]),
     .enc0_b(io_in[ 9]),

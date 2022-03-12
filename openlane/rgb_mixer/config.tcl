@@ -6,8 +6,11 @@ set ::env(STD_CELL_LIBRARY) "sky130_fd_sc_hd"
 
 set ::env(DESIGN_IS_CORE) 0
 
+# define number of IO pads
+set ::env(SYNTH_DEFINES) "MPRJ_IO_PADS=38"
+
 # Change if needed
-set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
+set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/../../verilog/rtl/rgb_mixer/src/*.v]
 
 set ::env(PL_TARGET_DENSITY) 0.4
 
