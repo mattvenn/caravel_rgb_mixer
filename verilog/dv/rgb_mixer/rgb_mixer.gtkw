@@ -1,0 +1,41 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Sat Mar 12 16:48:33 2022
+[*]
+[dumpfile] "/tmp/caravel_tutorial/caravel_example/verilog/dv/rgb_mixer/project.vcd"
+[dumpfile_mtime] "Sat Mar 12 16:48:26 2022"
+[dumpfile_size] 1151909
+[savefile] "/tmp/caravel_tutorial/caravel_example/verilog/dv/rgb_mixer/rgb_mixer.gtkw"
+[timestart] 0
+[size] 1807 986
+[pos] -1 -1
+*-35.700001 518000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] project_tb.
+[treeopen] project_tb.uut.
+[treeopen] project_tb.uut.mprj.
+[treeopen] project_tb.uut.mprj.rgb_mixer.
+[sst_width] 343
+[signals_width] 485
+[sst_expanded] 1
+[sst_vpaned_height] 581
+@28
+project_tb.flash_clk
+project_tb.flash_csb
+project_tb.flash_io0
+project_tb.flash_io1
+project_tb.clk
+project_tb.RSTB
+@29
+project_tb.uut.mprj.rgb_mixer.reset
+@28
+project_tb.enc0_a
+project_tb.enc0_b
+project_tb.enc1_a
+project_tb.enc1_b
+project_tb.enc2_a
+project_tb.enc2_b
+project_tb.pwm0_out
+project_tb.pwm1_out
+project_tb.pwm2_out
+[pattern_trace] 1
+[pattern_trace] 0
