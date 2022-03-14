@@ -54,13 +54,15 @@ set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$script_dir/../../verilog/rtl/rgb_mixer/src/rgb_mixer.v"
+    $script_dir/../../verilog/rtl/wrapped_rgb_mixer/wrapper.v"
+
 
 set ::env(EXTRA_LEFS) "\
-	$script_dir/../../lef/rgb_mixer.lef"
-
+       $script_dir/../../lef/wrapped_rgb_mixer.lef"
+ 
 set ::env(EXTRA_GDS_FILES) "\
-	$script_dir/../../gds/rgb_mixer.gds"
+       $script_dir/../../gds/wrapped_rgb_mixer.gds"
+
 
 # set ::env(GLB_RT_MAXLAYER) 5
 set ::env(RT_MAX_LAYER) {met4}
